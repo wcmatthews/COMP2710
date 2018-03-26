@@ -1,0 +1,108 @@
+// Answers to questions for HW 1
+// Name:	Walter Matthews
+//
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	// Problem #1
+	string firstname = "Cam";
+	string lastname = "Newton";
+	string concat = firstname + " " +  lastname;
+
+	cout << concat << endl;
+
+	// Problem #2
+	string username = "Scott";
+	string message = "Welcome to our TigerBook Social Network!";
+	string groupname = "#All";
+	string message_buffer;
+
+	message_buffer += "<!" + username + ":" + groupname + "!>" + message;
+
+	cout << message_buffer << endl;
+
+	// Problem #3
+	string username2 = "Kathy";
+	string message2 = "Way to go, Scott!";
+	string groupname2 = "#Tigers";
+	
+	message_buffer = "<!" + username2 + ":" +  groupname2 + "!>" + message2 + 
+		 message_buffer;
+
+	cout << message_buffer << endl;
+	cout << message_buffer.size() << endl;
+	
+	// Problem #4
+	string message3 = "Go Tiger";
+	string message4 = "Glory to Auburn!";
+	
+	string message_buffer2 = message3 + "\n" + message4;
+
+	cout << message_buffer2 << endl;
+	
+
+	//Problem #5
+	// The function string.size() returns the number of bytes a string uses.
+	// In problem #3, message_buffer.size() returns 87.
+
+	//Problem #6
+	// Using message.clear in problem #2 will make the object 'message' an
+	// empty string. 
+
+	//Problem #7
+	message_buffer = "<!" + username2 + ":" +  groupname2 + "!>" + message2 +
+                 "<!" + username + ":" + groupname + "!>" + message; //message_buffer from problem #3
+	
+	string dest = "<!";
+	int location =  message_buffer.find(dest);
+	 
+	cout << location << endl;
+
+	// Problem #8
+	int location2 =  message_buffer.find(dest, location+1);	
+			
+	cout << location2 << endl;
+	
+	//Problem #9
+	string delim = ":#";
+	
+	string str = message_buffer.substr(message_buffer.find("<!")+2, message_buffer.find(":#")-2);
+	cout << str << endl;
+
+	//Problem #10
+	int start = message_buffer.find("<!")+2;
+	int end = message_buffer.find(delim);
+	
+	string str2 = message_buffer.substr(message_buffer.find(("<!"), start)+2,
+			 message_buffer.find(delim)-2);
+	
+	cout << str2 << endl;
+
+	//Problem #11
+	start = message_buffer.find("!>") + 2;
+	
+	string str3 = message_buffer.substr(message_buffer.find(("!>"), start) + 2);
+
+
+	cout << str3 << endl;
+
+	//Problem #12
+	start = message_buffer.find(":") + 1;
+	end =  message_buffer.find("!>");
+
+	string str4 = message_buffer.substr(message_buffer.find((":"), start) + 1,
+			message_buffer.find(("!>"),end) - 11);
+
+	cout << str4 << endl;
+
+
+	//Problem #13
+	// In part a., cin is delimited by whitespace so it will only receive "Tigerbook"
+	// In part b., getLine will accept all strings until the user presses enter regardless
+	//               of whitespace.
+}
+

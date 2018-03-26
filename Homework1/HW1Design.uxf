@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>160</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Menu Class
+--
+string userToCheck
+string groupToCheck
+--
+validUser()
+validGroup()
+validOption()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>130</y>
+      <w>230</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>System Class
+--
+MessageBuffer message_buffer
+User new_user
+Group new_group
+string header
+string option
+--
+createUser()
+createGroup()
+displayWall()
+customHeader()
+pickOption()
+switchUser()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>40</x>
+      <y>420</y>
+      <w>210</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>User Class
+--
+string name
+string group
+--
+getName()
+setName()
+getGroup()
+setGroup()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>420</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Group Class
+--
+string group
+string[] members
+string user
+--
+createGroup()
+addMember()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>420</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>MessageBuffer Class
+--
+string name
+string group_name
+string input
+string message 
+--
+insertMessage()
+displaySent()
+displayRead()
+displayGroup()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>220</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>290</y>
+      <w>170</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>330</y>
+      <w>40</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;20.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>330</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>

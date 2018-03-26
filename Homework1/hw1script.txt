@@ -1,0 +1,62 @@
+Script started on Mon Sep 18 21:19:36 2017
+[?1034hbash-3.2$ ./a.out
+===========================================================
+|          Welcome to the TigerBook Social Network!        |
+===========================================================
+Enter user name > Scott
+Enter group name > #All
+Enter the message > Welcome to our TigerBook Scoial       ocial Network!
+We had an exciting summer.
+Let me know about yours.
+^!
+
+Anymore users? > yes
+
+Enter user name > Heidi
+Enter group name > #Tigers
+Enter the message > Great to be part of this group.
+The Bahamas was super!
+^!
+
+Anymore users? > yes
+
+Enter user name > Tyler
+Enter group name > #Aubie
+Enter the message > I'm in.
+We did the entire Pinhoti Trai    trail.
+Man! That was exhausting.
+^!
+
+Anymore users? > yes
+
+Enter user name > Kathy
+Enter group name > #Tigers
+Enter the message > Wazzup!
+I'm back from the Andes!
+^!
+
+Anymore users? > no
+
+The current messages are >>
+
+Kathy (#Tigers) >
+Wazzup!
+I'm back from the Andes!
+
+Tyler (#Aubie) >
+I'm in.
+We did the entire Pinhoti trail.
+Man! That was exhausting.
+
+Heidi (#Tigers) >
+Great to be part of this group.
+The Bahamas was super!
+
+Scott (#All) >
+Welcome to our TigerBook Social Network!
+We had an exciting summer.
+Let me know about yours.
+
+bash-3.2$ exit
+
+Script done on Mon Sep 18 21:22:02 2017

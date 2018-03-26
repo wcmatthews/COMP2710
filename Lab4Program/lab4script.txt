@@ -1,0 +1,136 @@
+Script started on Sat Dec  9 00:04:47 2017
+[?1034hbash-3.2$ ,.[K[K./a.ot[Kut
+           =========================================================
+        |                 Welcome to Tiger Store!                 |
+        ===========================================================
+Select an option: (1) Regular Cash, (2) Regular Check, (3) Regular Credit Card, (4) Contract Cash, (5) Contract Check, (6) Contract Credit Card, (7) Print all sales, or (8) Quit: 1
+
+Enter item: Apple
+
+Enter amount: $ 2.00
+
+Enter item: Backpack
+
+Enter amount: $ 40.0 99
+
+Enter item: *
+Sub-Total: $ 42.99
+
+Regular Sale
+
+Tax:  $ 3.44
+
+Total amount:  $ 46.43
+
+Amount received: $5 50.00
+
+Change: $ 3.57
+
+           =========================================================
+        |                 Welcome to Tiger Store!                 |
+        ===========================================================
+Select an option: (1) Regular Cash, (2) Regular Check, (3) Regular Credit Card, (4) Contract Cash, (5) Contract Check, (6) Contract Credit Card, (7) Print all sales, or (8) Quit: 5
+
+Enter item: Toothbursh
+
+Enter amount: $ 2.99
+
+Enter item: *
+Sub-Total: $ 39.08
+
+Contractor ID: 847984
+
+Contractor Sale
+
+Tax:  $ 3.13
+
+Total amount:  $ 42.21
+
+Enter name on the check: John Doe
+
+Enter driver's license number: 08310982
+
+           =========================================================
+        |                 Welcome to Tiger Store!                 |
+        ===========================================================
+Select an option: (1) Regular Cash, (2) Regular Check, (3) Regular Credit Card, (4) Contract Cash, (5) Contract Check, (6) Contract Credit Card, (7) Print all sales, or (8) Quit: 6
+
+Enter item: Nail polish
+
+Enter amount: $ 16.00
+
+Enter item: *
+Sub-Total: $ 52.68
+
+Contractor Sale
+
+Contractor ID: 084048
+
+Tax:  $ 4.21
+
+Total amount:  $ 56.90
+
+Enter name on the credit card: John Doe
+
+Enter credit card number: 87492437402834
+
+Enter expiration date: 
+	Month: 05
+
+	Year: 12
+
+           =========================================================
+        |                 Welcome to Tiger Store!                 |
+        ===========================================================
+Select an option: (1) Regular Cash, (2) Regular Check, (3) Regular Credit Card, (4) Contract Cash, (5) Contract Check, (6) Contract Credit Card, (7) Print all sales, or (8) Quit: 7
+
+Sale #1:
+1. Apple  $ 2.00
+2. Backpack  $ 40.99
+Sub-Total:  $ 42.99
+Regular Sale
+Tax:  $ 3.44
+Total amount:  $ 46.43
+CASH
+Amount received:  $ 50.00
+Change:  $ 3.57
+
+
+Sale #2:
+1. Apple  $ 2.00
+2. Backpack  $ 40.99
+3. Toothbursh  $ 2.99
+Sub-Total:  $ 39.08
+Contractor Sale
+Contractor ID: 847984
+Discount:  $ 6.90
+Sub-Total:  $ 39.08
+Tax:  $ 3.13
+Total amount:  $ 42.21
+CHECK
+CHECK  0
+
+
+Sale #3:
+1. Apple  $ 2.00
+2. Backpack  $ 40.99
+3. Toothbursh  $ 2.99
+4. Nail polish  $ 16.00
+Sub-Total:  $ 52.68
+Contractor Sale
+Contractor ID: 084048
+Discount:  $ 9.30
+Sub-Total:  $ 52.68
+Tax:  $ 4.21
+Total amount:  $ 56.90
+CREDIT CARD
+CREDIT CARD  5/120
+
+           =========================================================
+        |                 Welcome to Tiger Store!                 |
+        ===========================================================
+Select an option: (1) Regular Cash, (2) Regular Check, (3) Regular Credit Card, (4) Contract Cash, (5) Contract Check, (6) Contract Credit Card, (7) Print all sales, or (8) Quit: 8
+bash-3.2$ exit
+exit
+
+Script done on Sat Dec  9 00:06:21 2017

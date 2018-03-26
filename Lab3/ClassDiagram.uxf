@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>460</y>
+      <w>230</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Node 
+--
+setNodeName(string)
+getNodeName()
+attatchNewNode(Node, int)
+*getAttachedNode(int)
+attatchSnakeLadderNode(Node)
+*getSnakeLadderNode()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>270</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Dice
+--
+roll()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>270</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+setPlayerName(string)
+getPlayerName()
+chooseDirection(int)
+move()
+getNumberOfMoves()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>270</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Graph
+--
+createBoard()
+readSize()
+readStart()
+readEnd()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>70</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Game
+--
+isValidDirection()
+startGame()
+endBanner()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>290</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>360</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>150</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>150</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;120.0</additional_attributes>
+  </element>
+</diagram>

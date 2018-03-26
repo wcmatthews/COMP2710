@@ -1,0 +1,85 @@
+Script started on Mon Oct 30 16:07:09 2017
+[?1034hbash-3.2$ ./a.out
+==============================================
+|	 Distributed TigerBook System	|
+==============================================
+Please enter user name: Collin
+==============================================
+|	 Welcome to Distributed TigerBook System, Collin	|
+==============================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: b
+Enter Message: Hey Everyone
+how are you
+^!
+==============================================
+|	Collin has broadcasted a  new message. 	|
+==============================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: m
+Enter group name: #Tigers
+Enter message: Hi everyone welcome to the Tigerbook Social network
+u ^!
+==============================================
+|	Collin has multicasted a message to group #Tigers	|
+==============================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: u
+Enter recipient: 
+Robert
+Enter Message: Hey man
+^!
+==============================================
+|	Collin has unicasted a message to user Robert	|
+==============================================
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: w
+==============================================
+|	Collin's Wall Page 	|
+==============================================
+Collin (Robert) >
+
+Hey man
+
+Collin (#Tigers) >
+
+Hi everyone welcome to the Tigerbook Social network
+
+Collin (#All) >
+
+Hey Everyone
+how are you
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: h
+
+Collin!>
+Hey man
+{!2!}<!Collin!>
+Hi everyone welcome to the Tigerbook Social network
+{!0!}<!Collin!>
+Hey Everyone
+how are you
+ (#All) >
+Hey man
+{!2!}
+
+Broadcast (b), Multicast (m), Unicast (u), Wall (w), Home (h),
+Create group (g), Join Group (j), Quit (q)
+Enter option: q
+==============================================
+|	Thanks for using the Distributed TigerBook System	|
+==============================================
+bash-3.2$ exit
+exit
+
+Script done on Mon Oct 30 16:08:12 2017
